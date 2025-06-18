@@ -4,8 +4,8 @@ import numpy as np
 from PIL import Image
 
 # Load models=
-fruit_model = tf.keras.models.load_model('fruit_quality_model.h5')
-rotten_model = tf.keras.models.load_model('unet_mobilenetv2.h5')
+fruit_model = tf.keras.models.load_model('all_models/fruit_quality_model.h5')
+rotten_model = tf.keras.models.load_model('all_models/unet_mobilenetv2.h5')
 
 fruit_labels = {
     0: 'fresh',
