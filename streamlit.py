@@ -39,7 +39,7 @@ def rotten_percentage(pil_image):
     return round(rotten_percent, 2)
 
 # Streamlit UI
-st.title('🍎 Fruit Rotten/Fresh Detection')
+st.title('Fruit Rotten/Fresh Detection')
 
 # Choose input method
 input_method = st.selectbox("Choose input method", ["Upload Image", "Use Camera"])
